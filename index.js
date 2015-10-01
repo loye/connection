@@ -24,7 +24,7 @@ if (require.main === module) {
     key: fs.readFileSync('certs/localhost.key'),
     cert: fs.readFileSync('certs/localhost.crt'),
     requestCert: true,
-    ca: [ fs.readFileSync('certs/root_ca.crt') ]
+    ca: [fs.readFileSync('certs/root_ca.crt')]
 
   }, function (conn) {
     //console.log('server:', conn);
