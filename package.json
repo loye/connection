@@ -3,13 +3,20 @@
   "description": "connection",
   "version": "0.0.1",
   "author": "Lijian Qiu",
-  "keywords": ["connection", "stream", "protocol"],
+  "keywords": [
+    "connection",
+    "stream",
+    "protocol"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/loye/connection.git"
   },
   "license": "MIT",
   "dependencies": {
-    "ws": "0.4.32"
+    "ws": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node ."
   }
 }
